@@ -269,7 +269,6 @@ mod tests {
     use datafusion::physical_plan::execution_plan::Boundedness;
     use datafusion::physical_plan::stream::RecordBatchStreamAdapter;
     use datafusion::physical_plan::{DisplayAs, DisplayFormatType, ExecutionPlan, PlanProperties};
-    use futures::StreamExt;
     use iceberg::memory::{MEMORY_CATALOG_WAREHOUSE, MemoryCatalogBuilder};
     use iceberg::spec::{
         DataContentType, DataFileBuilder, DataFileFormat, NestedField, PrimitiveType, Schema,
